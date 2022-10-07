@@ -1,0 +1,19 @@
+.btn {
+    height: 40px;
+    width: 120px;
+    border-radius: .5rem;
+    border: red;
+    border-width: 2px;
+    border-style: solid;
+    color: red;
+    background-color: rgba(28, 30, 78, 0.76);
+}
+
+.btn:hover {
+    background-color: blue;
+    transition: 0.7s;
+    color: #fff;
+    border: lightblue;
+    border-width: 2px;
+    border-style: solid;
+}
