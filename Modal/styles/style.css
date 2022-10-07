@@ -1,0 +1,112 @@
+/* Resets Page Boundaries */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* /Resets Page Boundaries */
+/* Sets Basic Flex and Centering of Card, Container, and Flex-Row */
+.card, .container, .flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* /Sets Basic Flex and Centering of Card, Container, and Flex-Row */
+/* /Base CSS For Body */
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+/* /Base CSS For Body */
+/* Card To Contain Modal */
+.card {
+  width: 60%;
+  height: 60%;
+  background-image: unset;
+  border: 2px black solid;
+  flex-direction: column;
+}
+
+/* /Card To Contain Modal */
+/*Size of Modal*/
+.modal {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+/* /Size of Modal */
+/* Size of Container */
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* /Size of Container */
+/* Size Text Containers */
+.flex-row {
+  width: 75%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+/* /Size Text Containers */
+/* Text Containers */
+.content {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 10px;
+  color: white;
+  border: 2px white solid;
+  margin: 10px;
+}
+
+/* /Text Containers */
+/* The Open Button*/
+.open {
+  color: white;
+  margin: 10px;
+  width: 20%;
+  height: 10%;
+  background-color: rgb(63, 43, 103);
+  border: 2px red solid;
+  border-radius: 20px;
+}
+
+.open:hover {
+  color: red;
+  background-color: darkorchid;
+  border-color: black;
+}
+
+/* /The Open Button */
+/* The Close Button */
+.exit {
+  color: darkorchid;
+  background-color: rgba(255, 255, 255, 0.253);
+  padding: 10px 40px;
+  font-size: 28px;
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 20% 0px;
+}
+
+.exit:hover,
+.exit:focus {
+  color: rgb(204, 50, 50);
+  background-color: rgba(134, 134, 134, 0.253);
+  cursor: pointer;
+}
+
+/* /The Close Button *//*# sourceMappingURL=style.css.map */
