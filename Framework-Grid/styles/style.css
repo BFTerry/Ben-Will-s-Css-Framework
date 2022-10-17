@@ -52,5 +52,8 @@
         grid-template-rows: auto;
     grid-auto-flow: row;
   }
+  .container {
+    height: 200%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
