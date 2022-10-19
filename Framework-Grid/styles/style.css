@@ -1,7 +1,6 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,6 +18,7 @@
       grid-template-columns: auto;
   grid-auto-flow: column;
   padding: 20px 40px;
+  background-color: red;
 }
 
 .item {
@@ -39,6 +39,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .item {
+    height: auto;
+  }
   .grid {
     -ms-grid-rows: auto;
         grid-template-rows: auto;
@@ -47,13 +50,13 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .item {
+    height: auto;
+  }
   .grid {
     -ms-grid-rows: auto;
         grid-template-rows: auto;
     grid-auto-flow: row;
-  }
-  .container {
-    height: 200%;
   }
 }
 /*# sourceMappingURL=style.css.map */
